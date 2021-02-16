@@ -8,6 +8,7 @@ RemainAfterExit=yes
 ExecStartPre=/usr/bin/droid/timekeeper_wait.sh
 ExecStart=/usr/bin/timekeeper restore
 ExecStop=/usr/bin/timekeeper store
+TimeoutSec=20
 
 [Install]
 WantedBy=multi-user.target
