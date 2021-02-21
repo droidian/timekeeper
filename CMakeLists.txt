@@ -6,4 +6,3 @@ add_executable(timekeeper timekeeper.cpp)
 
 install (TARGETS timekeeper DESTINATION bin)
 install (FILES timekeeper.service DESTINATION /usr/lib/systemd/system)
-install (FILES timekeeper_wait.sh DESTINATION /usr/bin/droid)
