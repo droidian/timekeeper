@@ -5,4 +5,4 @@ set (CMAKE_CXX_STANDARD 11)
 add_executable(timekeeper timekeeper.cpp)
 
 install (TARGETS timekeeper DESTINATION bin)
-install (FILES timekeeper.service DESTINATION /usr/lib/systemd/system)
+

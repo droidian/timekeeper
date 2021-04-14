@@ -1,14 +1,12 @@
 [Unit]
 Description=timekeeper
-After=lxc@android.service
 
 [Service]
 Type=oneshot
 RemainAfterExit=yes
 ExecStart=/usr/bin/timekeeper restore
 ExecStop=/usr/bin/timekeeper store
-TimeoutSec=20
 
 [Install]
-WantedBy=multi-user.target
+WantedBy=sysinit.target
 
