@@ -14,3 +14,6 @@ CTestTestfile.cmake
 build
 
 # End of https://www.gitignore.io/api/cmake
+
+# Added by Droidian
+!.circleci/
